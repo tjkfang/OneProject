@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理与硬件配置系统</title>
+    <link href="bs/css/home.css" rel="stylesheet" type="text/css">
+    <script src="bs/js/jquery.min.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <h2>用户管理与硬件配置系统</h2>
+        <div id="div1_1" class="dhover">
+            <p class="dhover"><a href="usersAdmin.html"><img src="images_yong/icon-user.png"></a></p>
+            <p class="dhover"><a href="usersAdmin.html">用户</a></p>
+        </div>
+        <div id="div1_2" class="ddhover" class="ddhover">
+            <a href="#" class="ddhover"><img src="images_yong/icon_configuration.png"></a>
+            <p><a href="#" class="ddhover">配置管理</a></p>
+        </div>
+    </div>
+</body>
+<script>
+//    鼠标移入移出发生的事件
+    $(".dhover").mouseout(function(){
+        $(".dhover").css("background","#8C5FF9");
+    });
+    $(".dhover").mouseleave(function(){
+        $(".dhover").css("background","");
+    });
+    $(".ddhover").mouseout(function(){
+        $(".ddhover").css("background","#8C5FF9");
+
+    });
+    $(".ddhover").mouseleave(function(){
+        $(".ddhover").css("background","");
+
+    });
+</script>
+</html>

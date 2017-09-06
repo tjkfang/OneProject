@@ -1,0 +1,57 @@
+*{
+    font-family: 微软雅黑;
+}
+body{
+    margin-top: -38px;
+    margin: -38px -38px -38px 0px;
+    text-align:center;
+    min-width: 1200px;
+}
+#div1{
+    background: url(../../images_yong/content-selection_bg.jpg)no-repeat 0 center;
+    background-size:100% 100%;
+    height: 900px;
+
+}
+h2{
+    background: #6ac0ed;
+    color: #FFFFFF;
+    width: 100%;
+    height: 86px;
+    /*字体的大小*/
+    font-size: 46px;
+    /*左右居中*/
+    text-align:center;
+    /*上下居中*/
+    MARGIN-RIGHT: auto; MARGIN-LEFT: auto;line-height:86px;
+}
+#div1_1{
+    background: url(../../images_yong/img_blue.png);
+    width: 300px;
+    height: 240px;
+    float:left;
+    text-align:center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+#div1_2{
+    background: url(../../images_yong/img_yellow.png);
+    width: 300px;
+    height: 240px;
+    float: right;
+    text-align:center;
+    position: relative;
+    right: 20%;
+    top: 20%;
+}
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration:none;
+    position: relative;
+    top: 21px;
+}
+#div1_1.hover{
+    background:#8C5FF9;
+}

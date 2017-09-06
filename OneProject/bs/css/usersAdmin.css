@@ -1,0 +1,126 @@
+*{
+    font-family: 微软雅黑;
+}
+body{
+    background: #2C425A;
+    margin-top: 15px;
+}
+.container{
+    background: #EFEFEF;
+    height: 850px;
+    min-width: 1200px;
+}
+.containerr{
+    margin-top: 10px;
+}
+img{
+    border-left: 15px;
+    float: left;
+    padding-right:15px;
+}
+/*显式用户名样式*/
+#member{
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 5px;
+    margin: 0px 10px 0px 0px;
+}
+/*显式注销样式*/
+#logout{
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 5px;
+    margin: 0px 10px 0px 0px;
+    color: #F61A3E;
+}
+p{
+    font-size:20px;
+    /*字体向下移动*/
+    /*margin-top:10px;*/
+}
+hr{
+    height: 1px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.aaa{
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    text-align: center;
+}
+.aaa option{
+    width: 100px;
+    height: 25px;
+}
+.aaa li{
+    text-align: center;
+}
+.active{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    margin-right: 15px;
+}
+.table-responsive{
+    background: #ffffff;
+    height: 530px;
+    text-align: center;
+}
+.table tr th{
+    text-align: center;
+    max-width: 114px;
+
+}
+.table tr td{
+    text-align: center;
+    max-width: 114px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.btn-primary{
+    height: 30px;
+    width: 66px;
+    font-size:15px;
+    text-align: center;
+    background: #2AAFE8;
+    border: none;
+}
+.divd{
+    background: #D3D3D3;
+    height: 100px;
+    margin-top: 15px;
+    margin: 15px -15px 15px -15px;
+}
+/*添加弹出框样式*/
+.modal-footer{
+    text-align: center;
+}
+.form-group{
+    margin-top: 15px;
+}
+.form-control{width: 90%;}
+/*验证样式*/
+.eror{color: #f00;  font-weight: bold;  display: none;  }
+/*分页按钮*/
+
+ .pageMenu .clearfix ul,li{margin: 0;padding: 0;list-style: none;}
+.pageBox{width:800px;background: #eee;border:1px solid #ebebeb;padding: 10px;margin: 0 auto;}
+.page{text-align: center;width: 100%;margin: 0 auto;}
+.pageMenu li{border: solid thin #ddd;margin: 3px;float: left;padding: 5px 10px;cursor: pointer;background: #fff;}
+.pageMenu li.disabled{ background-color: #DDDDDD;   cursor: not-allowed;}
+.pageMenu li.active{ border: solid thin #0099FF;background-color: #0099FF;color: white;}
+/*提示框*/
+.cjy-mask{ position:fixed; left:0%; top:0%; right:0%; bottom:0%; background:#000; opacity:0.5; z-index:2000;  }
+#cjy-alertHed{  margin-left: 15px;  margin-top: 8px;  }
+.cjy-alert,
+.cjy-BulkImport-alert{  position: fixed; left: 35%; right: 35%; top: 40%; min-width: 330px;   min-height: 150px;  background: #fff;  z-index: 2000;display:inline-block;  *display:inline;  *zoom:1;}
+.cjy-alertCon{  margin-top:1.2rem;  text-align:center; padding:15px;}
+/*div移动到右下方*/
+.cjy-alertBtndiv{margin-top:1.5rem;width: 100%; height: 45px;background: #E8E8E8;}
+/*确定按钮样式*/
+.cjy-alertBtn{  width:20%;  height:30px; margin-left :40%;border: 0px; margin-top: 8px; background:#17b6e4;  color:#fff;}
